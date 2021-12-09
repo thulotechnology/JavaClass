@@ -4,7 +4,7 @@ public class RemainderWork {
         Scanner sc = new Scanner(System.in);
         int firstNumber;
         int secondNumber;
-        System.out.println("Enter First Number: ");
+        System.out.println("Enter Your First Number: ");
         firstNumber = sc.nextInt();
         System.out.println("Enter Second Number: ");
         secondNumber = sc.nextInt();

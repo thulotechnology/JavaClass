@@ -1,9 +1,7 @@
-import java.util.Scanner;
+
 public class SwitchCaseWork {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no of day");
-        int noofDay = sc.nextInt();
+        int noofDay = 5;
         switch (noofDay){
             case 1:
                 System.out.println("Sun");

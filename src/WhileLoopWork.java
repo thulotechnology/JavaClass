@@ -6,6 +6,12 @@ public class WhileLoopWork {
 //            i++;
 //        }
 
+        int i = 5;
+        while(i>=1){
+            System.out.println(i);
+            i--;
+        }
+
 
     }
 }

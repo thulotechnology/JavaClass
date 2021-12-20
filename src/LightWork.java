@@ -12,7 +12,8 @@ public class LightWork {
             double price = s.nextDouble();
             lights[i] = new Light(name, price);
         }
-
+        String name = "Hari";
+        System.out.println(name.length());
         for (int i=0; i<total; i++){
             System.out.println("Light Name "+lights[i].name);
             System.out.println("Light Price "+lights[i].price);

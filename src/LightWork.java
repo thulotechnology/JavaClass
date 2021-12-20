@@ -6,11 +6,11 @@ public class LightWork {
         int total = 5;
         Light [] lights = new Light[total];
         for(int i=0; i<total; i++){
-            lights[i] = new Light();
             System.out.println("Enter light name of "+i);
-            lights[i].name = sc.nextLine();
+            String name = sc.nextLine();
             System.out.println("Enter light price of  "+i);
-            lights[i].price = s.nextDouble();
+            double price = s.nextDouble();
+            lights[i] = new Light(name, price);
         }
 
         for (int i=0; i<total; i++){
@@ -26,4 +26,9 @@ public class LightWork {
 class Light{
     String name;
     double price;
+
+    public Light(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
 }
